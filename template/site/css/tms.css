@@ -1,0 +1,17 @@
+.slider {
+	width:950px;
+	margin:0 auto -10px;
+}
+.items {
+	display:none;
+}
+.buttons {position:absolute;bottom:20px;right:10px;z-index:10;background:url(../images/buttons.gif) 0 0 repeat-x #f6b404;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;padding:2px 4px 0px 6px;}
+.buttons a {display:inline-block;overflow:hidden;margin:3px;}
+.play {background:url(../images/play.png) 0 0 no-repeat;width:4px;height:8px;}
+.pause {background:url(../images/pause.png) 0 0 no-repeat;width:6px;height:8px;}
+.play.active {
+	background:url(../images/play-active.png) 0 0 no-repeat;
+}
+.pause.active {
+	background:url(../images/pause-active.png) 0 0 no-repeat;
+}
