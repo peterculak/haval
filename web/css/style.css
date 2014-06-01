@@ -284,7 +284,12 @@ nav .navBg {
 .blocks h2{	
 	margin-bottom: 10px;
 }
-
+.btn-success {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
 
 @media (max-width: 580px) {
 	.logo {
