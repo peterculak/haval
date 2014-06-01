@@ -284,10 +284,7 @@ nav .navBg {
 .blocks h2{	
 	margin-bottom: 10px;
 }
-.blocks p {
-    font-size: 16px;
-    margin-bottom: 0;
-}
+
 .btn-success {
     position: absolute;
     right: 10px;
@@ -319,4 +316,8 @@ nav .navBg {
 	.padding.blocks {
 		padding:10px
 	}
+}
+.blocks p {
+    font-size: 16px!important;
+    margin-bottom: 0;
 }
