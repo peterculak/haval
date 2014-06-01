@@ -93,6 +93,6 @@
 <footer class="container-fluid">
     <?php require_once('page/footer.html'); ?>
 </footer>
-<?php require_once('js/ga.js'); ?>
+    <?php require_once('js/ga.js'); ?>
 </body>
 </html>
