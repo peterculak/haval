@@ -321,3 +321,7 @@ nav .navBg {
     font-size: 16px!important;
     margin-bottom: 0;
 }
+
+header img.img-responsive {
+    width: 100%;
+}

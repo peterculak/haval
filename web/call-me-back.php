@@ -8,8 +8,15 @@
     );
     if ($_POST) {
         if (isset ($problems[$_POST['type-of-problem']])) {
-            $body = "Problem: " . $problems[$_POST['type-of-problem']] . '<br>';
-            $body .= "Phone Number: " . $_POST['phone'];
+            if (isset($_POST['name'])) {
+                $body = "Message from: " . $_POST['name'] . '<br>';
+            }
+            $body .= "Problem: " . $problems[$_POST['type-of-problem']] . '<br>';
+            $body .= "Phone Number: " . $_POST['phone'] . '<br>';
+
+            if (isset($_POST['message'])) {
+                $body .= "Message from customer: " . $_POST['message'] . '<br>';
+            }
 
             if (mail('wmmechanic@icloud.com', 'Website enquiry', $body)) {
                 $sent = true;
@@ -42,7 +49,7 @@
                                     <form class="" method="post" action="" role="form">
 
                                         <div class="form-group">
-                                            <label for="type-of-problem">Type of problem</label>
+                                            <label for="type-of-problem">Type of problem*</label>
 											<select name="type-of-problem"  class="form-control">
 												<?php
 													foreach ($problems as $key => $label): ?>
@@ -51,8 +58,18 @@
 											</select>
                                         </div>
                                         <div class="form-group">
-                                            <label>Phone Number</label>
+                                            <label>Phone Number*</label>
                                             <input required class="form-control" name="phone" type="tel" value="" placeholder="Enter Your Phone Number Here">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Name</label>
+                                            <input class="form-control" name="name" type="text" value="" placeholder="Enter Your Name">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Message</label>
+                                            <textarea class="form-control" name="message" value="" placeholder="Enter Your Message"></textarea>
                                         </div>
 
 
