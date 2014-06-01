@@ -2,78 +2,14 @@
 <html lang="en">
 <head>
     <title>Wimbledon Mobile Mechanic</title>
-    <meta charset="utf-8">
-    <meta description="Affordable price, unique service and highly attitude of a mobile idea at your door step">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/superfish.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/tms.css">
-    <script type="text/javascript" src="js/jquery-1.6.min.js"></script>
-    <script type="text/javascript" src="js/superfish.js"></script>
-    <script type="text/javascript" src="js/jquery.equalheights.js"></script>
+    <?php include_once('page/head.html'); ?>
 </head>
 <body>
 <div class="bg">
     <div class="bg1">
         <!--==============================header=================================-->
         <header class=" container">
-            <div class="main ">
-                <nav class="row">
-					<div class="col-xs-12">
-					<div class="test">
-						<div class="row">
-							<div clas="col-xs-12">							
-
-									<div class="contacts padding">
-										<span>256 Keevil Drive, Wimbledon, London, SW19 6TD</span>
-										<span>Tel: 07939 494692</span>
-									</div> 
-
-							</div>
-						</div>	
-						<div class="row">
-							<div clas="col-xs-12">	
-								<div class="">								
-									<a class="logo padding" href="/">Wimbledon<span>Mobile Mechanic</span></a>
-								</div>
-							</div>
-						</div>	
-                    </div>
-                    </div>
-                </nav>
-                <div class="row">
-                    <div class="col-sx-12" style="margin: 0px 15px ;">
-						<img src="images/slide1.jpg" class="img-responsive">
-					</div>
-				</div>						
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="padding blocks ">
-                            <strong class="dropcap">0<span>1</span></strong>
-                            <h2>Home</h2>
-
-                            Carying out all the repairs at your doorstep.
-                        </div>
-                    </div>
-                    <div class=" col-sm-4">
-                        <div class="padding blocks ">
-                            <strong class="dropcap">0<span>2</span></strong>
-                            <h2>Workplace</h2>
-
-                            Give us a call and we are able to deliver our service while you are at working.
-                        </div>
-                    </div>
-                    <div class=" col-sm-4">
-                        <div class="padding blocks ">
-                            <strong class="dropcap">0<span>3</span></strong>
-                            <h2>Roadside</h2>
-
-                            Diagnose your car problem whlie you're on the way.
-                        </div>
-                    </div>
-                </div>
-			</div>
+            <?php include_once('page/header.html'); ?>
         </header>
         <!--==============================content================================-->
         <section id="" class="container">
@@ -180,7 +116,7 @@
     </div>
 </div>
 <!--==============================footer=================================-->
-<footer>
+<footer class="container">
     <?php require_once('page/footer.html'); ?>
 </footer>
 </body>
