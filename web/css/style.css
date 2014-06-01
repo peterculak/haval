@@ -8,7 +8,6 @@ body {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:100%; 
 	color:#7f878f;
-	min-width:980px;
 	background:#8f9699;
 	
 }
@@ -138,7 +137,7 @@ h6 {font-size:17px;line-height:1.2em;text-shadow:1px 0 rgba(23,37,52,.5);display
 
 .box {background:#e8e9ea;border:1px solid #f3f6f7;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;}
 .box .padding {padding:13px 19px 19px;}
-.box.blue {background:url(../images/blue-box.png) 0 0 repeat-x #192939;border:1px solid #121d29;margin:0 0 10px;}
+.box.blue {background:url(../images/blue-box.png) 0 0 repeat-x #192939;border:1px solid #121d29;}
 .box.blue h3, .box.yellow h3 {color:#fff;}
 .box.yellow {background:url(../images/yellow-box.png) 0 0 repeat-x #f6c004;border:1px solid #dea711;}
 .box.cards {background:url(../images/cards.jpg) 100% 100% no-repeat #e8e9ea;}

@@ -22,6 +22,7 @@
 <head>
     <title>Wimbledon Mobile Mechanic</title>
     <?php require_once('page/head.html'); ?>
+	
 </head>
 <body>
 <div class="bg">
