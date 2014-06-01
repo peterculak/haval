@@ -28,11 +28,11 @@
     <div class="bg1">
 
         <!--==============================header=================================-->
-        <header class="container">
+        <header class="container-fluid">
             <?php include_once('page/header.html'); ?>
         </header>
         <!--==============================content================================-->
-        <section class="container">
+        <section class="container-fluid">
                     <article class="row">
                         <div class="col-xs-12">
                             <div class="box blue padding">
@@ -73,7 +73,7 @@
     </div>
 </div>
 <!--==============================footer=================================-->
-<footer class="container">
+<footer class="container-fluid">
     <?php require_once('page/footer.html'); ?>
 </footer>
 </body>

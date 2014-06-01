@@ -8,11 +8,11 @@
 <div class="bg">
     <div class="bg1">
         <!--==============================header=================================-->
-        <header class=" container">
+        <header class=" container-fluid">
             <?php include_once('page/header.html'); ?>
         </header>
         <!--==============================content================================-->
-        <section id="" class="container">
+        <section id="" class="container-fluid">
 
                 <div class="wrapper row ">
                     <article class="col-sm-4">
@@ -116,7 +116,7 @@
     </div>
 </div>
 <!--==============================footer=================================-->
-<footer class="container">
+<footer class="container-fluid">
     <?php require_once('page/footer.html'); ?>
 </footer>
 </body>
