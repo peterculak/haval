@@ -15,7 +15,7 @@
         <section id="" class="container-fluid">
 
                 <div class="wrapper row ">
-                    <article class="col-sm-4">
+                    <article class="col-md-4">
                         <div class="row">
 							<div class=" col-sm-12">
 								<div class="worktime 	">
@@ -40,7 +40,7 @@
 							</div>
                         </div>
                     </article>
-                    <article class="col-sm-8">
+                    <article class="col-md-8">
                         <div class="row" >
 							<div class="col-sm-12" >
 								<div class="box blue">
