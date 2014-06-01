@@ -1,25 +1,34 @@
+<?php
+    $sent = false;
+    $problems = array(
+        'mechanical' => 'Mechanical Problem',
+        'non-starter' => 'Non Starter',
+        'general-service' => 'General Service',
+        'mot' => 'MOT'
+    );
+    if ($_POST) {
+        if (isset ($problems[$_POST['type-of-problem']])) {
+            $body = "Problem: " . $problems[$_POST['type-of-problem']] . '<br>';
+            $body .= "Phone Number: " . $_POST['phone'];
 
+            if (mail('wmmechanic@icloud.com', 'Website enquiry', $body)) {
+                $sent = true;
+            }
+        }
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Wimbledon Mobile Mechanic</title>
-    <meta charset="utf-8">
-    <meta description="Affordable price, unique service and highly attitude of a mobile idea at your door step">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">	
-    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/superfish.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/tms.css">
-    <script type="text/javascript" src="js/jquery-1.6.min.js"></script>
-    <script type="text/javascript" src="js/superfish.js"></script>
-    <script type="text/javascript" src="js/jquery.equalheights.js"></script>
+    <?php include_once('page/head.html'); ?>
 </head>
 <body>
 <div class="bg">
     <div class="bg1">
         <!--==============================header=================================-->
         <header>
-
+            <?php include_once('page/header.html'); ?>
         </header>
         <!--==============================content================================-->
         <section id="content" class="container">
