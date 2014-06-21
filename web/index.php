@@ -46,26 +46,26 @@
 								<div class="box blue">
 									<div class="row">
 										<div class="col-sm-12">
-											<h3>Wimbledon Mobile Mechanic <span>can handle all of your auto repair services including:</span></h3>
+											<h3>Services <span>provided by Wimbledon Mobile Mechanic</span></h3>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-sm-6">
-											<ul class="list-1 ">
-                                                <li>Full Service <span>from &pound;69.99</span></li>
-                                                <li>Brake Service <span>from &pound;49.99</span></li>
-                                                <li>Timing belt and water pump <span>from &pound;49.99</span></li>
-                                                <li>Clutch Service<span>from &pound;120.00</span></li>
-                                                <li>Engine Work<span>from &pound;99.00</span></li>
+											<ul class="list-1 service-list">
+                                                <li>Full Service <span class="from">from</span><span class="price">&pound;69.99</span></li>
+                                                <li>Brake Service <span class="from">from</span><span class="price">&pound;49.99</span></li>
+                                                <li>Timing belt and water pump <span class="from">from</span><span class="price">&pound;49.99</span></li>
+                                                <li>Clutch Service <span class="from">from</span><span class="price">&pound;120.00</span></li>
+                                                <li>Engine Work <span class="from">from</span><span class="price">&pound;99.00</span></li>
 											</ul>
 										</div>
 										<div class="col-sm-6">
-											<ul class="list-1 ">
-                                                <li>Head Gaskets<span>from &pound;250.00</span></li>
-                                                <li>Exhaust Service<span>from &pound;69.99</span></li>
-                                                <li>MOT<span>from &pound;29.99</span></li>
-                                                <li>Call out charges (including minor repairs) <span>from &pound;50.00</span></li>
-                                                <li>All kinds of bodywork undertaken</li>
+											<ul class="list-1 service-list">
+                                                <li>Head Gaskets <span class="from">from</span><span class="price">&pound;250.00</span></li>
+                                                <li>Exhaust Service <span class="from">from</span><span class="price">&pound;69.99</span></li>
+                                                <li>MOT <span class="from">from</span><span class="price">&pound;29.99</span></li>
+                                                <li>Call out charges (including minor repairs) <span class="from">from</span><span class="price">&pound;50.00</span></li>
+                                                <li>We undertake all kinds of bodywork</li>
 											</ul>
 										</div>
 										<!--<a class="button1" href="#">All services &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span></span></a>-->

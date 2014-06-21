@@ -12,6 +12,9 @@ body {
 	
 }
 
+.price {color: white}
+span.from {font-size:12px; padding-right:4px;}
+
 .bg {width:100%;background:url(../images/body.gif) 0 0 repeat-x #adb2b3;}
 .bg1 {width:100%; background:url(../images/bg.jpg) center 0 no-repeat;}
 
@@ -151,7 +154,7 @@ h6 {font-size:17px;line-height:1.2em;text-shadow:1px 0 rgba(23,37,52,.5);display
 .button1:hover {background:url(../images/button.png) 0 0 repeat-x #131f2b;text-decoration:none;}
 .button1 span {background:url(../images/services.png) 0 0 no-repeat;width:56px;height:56px;position:absolute;right:1px;top:-8px;}
 
-.list-1 li {line-height:20px; padding:0px; vertical-align:top;color:#f6b404;}
+.list-1 li {line-height:20px; padding:0px; vertical-align:top;color:#f6b404; padding-bottom: 10px}
 .list-1 li a {color:#fafafa;}
 .list-1 li a:hover {color:#f6b404;}
 
