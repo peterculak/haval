@@ -50,32 +50,22 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-sm-4">
+										<div class="col-sm-6">
 											<ul class="list-1 ">
-												<li>- <a href="#">Complete Computer Diagnostics</a></li>
-												<li>- <a href="#">Drivability Problems</a></li>
-												<li>- <a href="#">Tune-ups</a></li>
-												<li>- <a href="#">Oil Changes</a></li>
-												<li>- <a href="#">Tyres</a></li>
+                                                <li>Full Service <span>from &pound;69.99</span></li>
+                                                <li>Brake Service <span>from &pound;49.99</span></li>
+                                                <li>Timing belt and water pump <span>from &pound;49.99</span></li>
+                                                <li>Clutch Service<span>from &pound;120.00</span></li>
+                                                <li>Engine Work<span>from &pound;99.00</span></li>
 											</ul>
 										</div>
-										<div class="col-sm-4">
+										<div class="col-sm-6">
 											<ul class="list-1 ">
-												<li>- <a href="#">Brake repair specialists</a></li>
-												<li>- <a href="#">Mufflers and Exhaust Systems</a></li>
-												<li>- <a href="#">Steering and Suspensions</a></li>
-												<li>- <a href="#">Alignments</a></li>
-												<li>- <a href="#">Fuel System Services</a></li>
-												<li>- <a href="#">Coolant Systems</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4">
-											<ul class="list-1 ">
-												<li>- <a href="#">Emission Repair Facility</a></li>
-												<li>- <a href="#">Air Conditioning Service</a></li>
-												<li>- <a href="#">Electrical Systems</a></li>
-												<li>- <a href="#">Fleet Maintenance</a></li>
-												<li>- <a href="#">Engine Work</a></li>
+                                                <li>Head Gaskets<span>from &pound;250.00</span></li>
+                                                <li>Exhaust Service<span>from &pound;69.99</span></li>
+                                                <li>MOT<span>from &pound;29.99</span></li>
+                                                <li>Call out charges (including minor repairs) <span>from &pound;50.00</span></li>
+                                                <li>All kinds of bodywork undertaken</li>
 											</ul>
 										</div>
 										<!--<a class="button1" href="#">All services &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span></span></a>-->
